@@ -1,0 +1,1 @@
+let box={};box.load=class load{box=null;constructor(sx,sy,sz,x,y,z){box=new THREE.BoxGeometry(sx,sy,sz)}}
