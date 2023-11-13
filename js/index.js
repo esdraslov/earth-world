@@ -7,3 +7,5 @@ const camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT);
 
 camera.position.z = 50;
 scenes.main.add(camera);
+
+let testBlock = new box.load(10, 10, 10, 10, 10, 10)
